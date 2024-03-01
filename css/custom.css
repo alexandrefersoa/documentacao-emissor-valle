@@ -1,6 +1,6 @@
 /* dark / light mode */
 html.dark body {
-    background: #222;
+    background: #1e1e1e;
     color: #888888;
 }
 
@@ -14,7 +14,7 @@ html.dark h6 {
 }
 
 html.dark hr {
-    border-color: #111;
+    border-color: #B08466;
 }
 
 html.dark .docs-sidebar .nav>li>a {
@@ -34,31 +34,31 @@ html.dark .intro1 {
 }
 
 html.dark .intro1 a {
-    color: #F16811 !important;
+    color: #B08466 !important;
 }
 
 html.dark a {
-    color: #CC8548;
+    color: #AA8B75;
 }
 
 html.dark a:hover {
-    color: #F16811;
+    color: #B08466;
 }
 
 html.dark .intro2 {
-    background-color: #F16811;
-    border-color: #DE7844;
+    background-color: #B08466;
+    border-color: #a07456;
 }
 
 html.dark .btn-primary {
-    background-color: #F16811;
-    border-color: #DE7844;
+    background-color: #B08466;
+    border-color: #a07456;
     color: #000;
 }
 
 html.dark .btn-primary:hover {
-    background-color: #DE7844;
-    border-color: #F16811;
+    background-color: #a07456;
+    border-color: #B08466;
 }
 
 html.dark .btn-info {
@@ -181,11 +181,11 @@ html #mode .dark {
 
 /* hover links */ 
 .docs-sidebar .nav>li:not(.active)>a:hover {
-    color: #0E97EE;
+    color: #316160;
     text-decoration: none;
     background-color: transparent;
     border-left-width: 1px;
-    border-left-color: #0E97EE;
+    border-left-color: #316160;
 }
 /* focus links */
 .docs-sidebar .nav>li>a:focus {
@@ -194,10 +194,10 @@ html #mode .dark {
 }
 /* active links */
 .docs-sidebar .nav>.active>a {
-    color: #0E97EE;
+    color: #316160;
     text-decoration: none;
     background-color: transparent;
-    border-left-color: #0E97EE;
+    border-left-color: #316160;
 }
 /* all active links */
 .docs-sidebar .nav>.active>a, 
@@ -224,7 +224,8 @@ html #mode .dark {
 /*Syntax Highlighter : Sublime Theme */
 
 .syntaxhighlighter {
-    background-color: #2b303b !important;
+    border-radius: 5px;
+    background-color: #000 !important;
     padding: 15px 0;
     margin: 2em 0 1em 0 !important;
 }
@@ -243,11 +244,11 @@ html #mode .dark {
 }
 
 .syntaxhighlighter .line.alt1 {
-    background-color: #2b303b !important;
+    background-color: #000 !important;
 }
 
 .syntaxhighlighter .line.alt2 {
-    background-color: #2b303b !important;
+    background-color: #000 !important;
 }
 
 .syntaxhighlighter .string,
@@ -275,11 +276,11 @@ html #mode .dark {
 
 .syntaxhighlighter .line.highlighted.alt1,
 .syntaxhighlighter .line.highlighted.alt2 {
-    background-color: #333E49 !important;
+    background-color: #000 !important;
 }
 
 .syntaxhighlighter .gutter .line.highlighted {
-    background-color: #343d46 !important;
+    background-color: #000 !important;
     color: #757a84 !important;
 }
 

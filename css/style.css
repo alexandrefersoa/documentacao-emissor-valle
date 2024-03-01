@@ -14,6 +14,7 @@
 ------------------------------------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
 /* ----------------------------------------------------
     SKELETON    
 ------------------------------------------------------- */
@@ -33,13 +34,15 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: Sora;
+    
     letter-spacing: 0px;
-    font-weight: normal;
+    font-weight: bold;
     position: relative;
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 1.8;
-    color: #242424;
+    color: #2B3C46;
 }
 
 h1 {
@@ -233,7 +236,7 @@ h4 a {
     margin-left: 0;
     margin-top: 40px;
     border-width: 1px;
-    border-color: #030303;
+    border-color: #B08466;
 }
 
 .intro {
@@ -243,7 +246,8 @@ h4 a {
 .intro1 {
     margin-top: 22px;
     padding: 30px 0px;
-    background-color: #f3f3f3;
+    background-color: #F1F4F9;
+    border-radius: 5px;
 }
 
 .intro1 li {
@@ -251,7 +255,7 @@ h4 a {
 }
 
 .intro1 a {
-    color: #0E97EE !important;
+    color: #316160 !important;
 }
 
 .intro a {
@@ -291,14 +295,14 @@ h4 a {
 }
 
 mark {
-    background-color: #0E97EE;
+    background-color: #316160;
     color: #ffffff;
     padding: 0 10px;
 }
 
 a:focus,
 a:hover {
-    color: #0E97EE;
+    color: #316160;
 }
 
 .intro2 i {
@@ -307,8 +311,8 @@ a:hover {
 }
 
 .intro2 {
-    background-color: #0E97EE;
-    border: 2px solid #2187BB;
+    background-color: #316160;
+    border: 2px solid #316160;
     border-radius: 5px;
     color: #ffffff;
     font-style: italic;
@@ -329,29 +333,29 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #0E97EE;
-    border: 1px solid #2187BB;
+    background-color: #316160;
+    border: 1px solid #316160;
 }
 
 .btn-primary:hover {
-    background-color: #2187BB;
-    border: 1px solid #0E97EE;
+    background-color: #40706f;
+    border: 1px solid #40706f;
 }
 
 .btn-info {
-    background-color: #545454;
-    border: 1px solid #656565;
+    background-color: #B08466;
+    border: 1px solid #B08466;
 }
 
 .btn-info:hover {
-    background-color: #656565;
+    background-color: #91694e;
     border: 1px solid #545454;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #0E97EE;
+    background-color: #316160;
     color: #fff;
 }
 
@@ -379,7 +383,7 @@ a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: grey;
+  background-color: #316160;
   color:#ffff;
   cursor: pointer;
   padding: 0px;
@@ -389,3 +393,5 @@ a:hover {
 #myBtn:hover {
   background-color: #404040;
 }
+
+
